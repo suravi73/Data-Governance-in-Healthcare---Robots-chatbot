@@ -1,6 +1,7 @@
 # Privacy and Anonymization in Healthcare AI Chatbots
-
-## 🏥 Project Overview
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+##  Project Overview
 
 This repository contains an academic project that addresses the critical challenge of **privacy and anonymization** in AI-powered healthcare applications. The project is based on a scenario where a healthcare provider plans to deploy an AI chatbot, raising concerns about handling sensitive patient data, complying with privacy laws, and preventing re-identification.
 
@@ -8,7 +9,7 @@ The analysis provides a comprehensive framework for identifying privacy risks, e
 
 ---
 
-## 🔑 Key Concepts & Techniques
+##  Key Concepts & Techniques
 
 This project explores essential concepts in data privacy and demonstrates their practical application.
 
@@ -36,13 +37,13 @@ The following techniques were applied to the dataset to protect privacy:
 
 ---
 
-## 📊 Dataset & Implementation
+##  Dataset & Implementation
 
 The project uses the **Medical Student Mental Health dataset**  to demonstrate a practical anonymization workflow. The implementation successfully applies tokenization, generalization, and suppression to meet pre-defined `k` and `l` values, thereby reducing the risk of re-identification.
 
 The presentation also discusses advanced techniques, such as the use of **Large Language Models (LLMs)** like Llama-3, which have shown a 99.24% success rate in automatically removing Protected Health Information (PHI) from clinical texts.
 
-## 🎯 Conclusion & Recommendations
+##  Conclusion & Recommendations
 
 The analysis concludes that a careful balance must be struck between **privacy protection and data utility**. While anonymization is essential for GDPR compliance, overly aggressive techniques can degrade data quality and render it unusable for research.
 
@@ -52,7 +53,7 @@ The analysis concludes that a careful balance must be struck between **privacy p
 
 ---
 
-## 🚀 How to Use This Repository
+## How to Use This Repository
 
 This repository serves as an educational resource for anyone interested in data privacy, ethical AI, and healthcare data governance. It is particularly useful for:
 * **Students** learning about privacy-enhancing technologies (PETs).
